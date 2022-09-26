@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-4.101/static/WOFF2/Raleway-Medium.woff2') format('woff2'),
+         url('Raleway-4.101/static/WOFF/Raleway-Medium.woff') format('woff'),
+         url('Raleway-4.101/static/TTF/Raleway-Medium.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    background-color: #f9f7f3;    
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header div .ul1{
+    display: flex;
+    align-self: stretch;
+    border-bottom: 1px solid black;
+}
+
+header div ul .li1{
+    flex: 70%;
+    list-style-type: none;
+}
+
+header div ul .li2 {
+    flex: 30%;
+    list-style-type: none;
+}
+
+
+header div .ul1 .li2 ul{
+    display: flex;
+}
+
+header > div > ul > li:nth-child(1) > a > img {
+    padding-top: 10px;
+}
+
+header div .ul1 .li2 ul li{
+    list-style-type: none;
+    display: block;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid black;
+    text-align: center;
+    width: 200px;
+}
+
+header div .ul1 .li2 ul li:nth-child(5){
+    width: max-content;
+}
+
+header div ul .li2 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+header div ul .li2 ul img {
+    height: 15px;    
+}
+
+header > div > ul > li > a{
+    margin-left: 50px;
+}
+
+
+
+/* end */
+
+footer{
+    vertical-align: bottom;
+}
+
+footer .picture a{
+    display: block;
+    align-self: center;
+    margin-left: 3%;
+}
+
+footer .picture div{
+    margin-left: 17%;
+    margin-top: 10%;
+}
+
+footer .picture div a{
+    display: inline-block;
+}
+
+footer > ul{
+    display: flex;
+    height: 250px;
+    align-items: flex-start;
+    align-self: flex-start;
+    border-top: 1px solid black;
+    padding: 40px 0px;
+}
+
+footer ul li{
+    display: inline-block;
+    line-height: 40px;
+}
+
+footer ul li ul li{
+    display: block;
+}
+
+footer ul .picture{
+    flex: 25%;
+}
+
+footer ul .block{
+    flex: 5%;
+}
+
+footer .block a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+footer .block h2{
+    text-transform: capitalize;
+}
+
+footer div p{
+    padding: 20px 20px 0px 20px;
+    border-top: 1px solid #000;
+    text-align: center;
+    margin: 0 5% 1% 5%;
+}
