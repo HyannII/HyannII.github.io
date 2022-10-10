@@ -156,7 +156,7 @@ footer div{
 }
 
 footer div:nth-child(1){
-  width: 40%;
+  width: 45%;
 }
 
 footer div:nth-child(1) img{
@@ -169,7 +169,7 @@ footer div:nth-child(1) p, footer div:nth-child(1) i{
 }
 
 footer div:nth-child(2){
-  width: 60%;
+  width: 55%;
   text-align: left;
   padding: 2% 2%;
   border-left: 1px solid #000;
