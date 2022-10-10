@@ -64,7 +64,6 @@ body {
   left: 0;
   background-color: #ac9f94;
   overflow-x: hidden;
-  opacity: 0.9;
   transition: 0.5s;
   padding-top: 2px;
 }
@@ -154,17 +153,14 @@ footer{
 
 footer div{
   text-align: center;
-  padding-top: 2%;
 }
 
 footer div:nth-child(1){
-  width: 50%;
-  border-right: 1px solid #000;
+  width: 45%;
 }
 
 footer div:nth-child(1) img{
   width: 60%;
-  padding-bottom: 1.5%;
 }
 
 footer div:nth-child(1) p, footer div:nth-child(1) i{
@@ -173,9 +169,10 @@ footer div:nth-child(1) p, footer div:nth-child(1) i{
 }
 
 footer div:nth-child(2){
-  width: 50%;
+  width: 55%;
   text-align: left;
-  padding: 0 2%;
+  padding: 2% 2%;
+  border-left: 1px solid #000;
 }
 
 footer div:nth-child(2) {
@@ -206,6 +203,7 @@ footer div:nth-child(3){
   width: 100%;
   border-top: 1px solid #000;
   margin: 0 20%;
+  padding-top: 2%;
 }
 
 @media screen and (max-width: 850px){
