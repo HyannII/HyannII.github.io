@@ -13,10 +13,14 @@
 
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  background-color: #dac6b6;
+  /* background-color: #dac6b6; */
 }
 
 /* top navbar start */
+
+header{
+  height: 50px;
+}
 
 .navbar{
   display: flex;
@@ -143,12 +147,12 @@ body {
 footer{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
   flex-wrap: wrap;
   border-top: 1px solid #000;
-  padding: 1% 0 0.5% 0;
-  height: 300px;
+  /* padding: 1% 0 0.5% 0; */
+  /* height: 300px; */
 }
 
 footer div{
@@ -210,11 +214,23 @@ footer div:nth-child(3){
   footer div:nth-child(1){
     width: 100%;
     padding: 0;
-    border: none;
   }
 
   footer div:nth-child(2){
     width: 100%;
     text-align: center;
+    border: none;
+  }
+}
+
+@media screen and (max-height: 1000px){
+  footer{
+    height: 50px;
+  }
+  footer > div:nth-child(2), footer > div:nth-child(1){
+    display: none;
+  }
+  footer > div:nth-child(3){
+    border: none;
   }
 }
