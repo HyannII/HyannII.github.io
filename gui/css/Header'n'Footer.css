@@ -13,7 +13,7 @@
 
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  /* background-color: #dac6b6; */
+  background-color: #dac6b6;
 }
 
 /* top navbar start */
@@ -151,8 +151,8 @@ footer{
   width: 100%;
   flex-wrap: wrap;
   border-top: 1px solid #000;
-  /* padding: 1% 0 0.5% 0; */
-  /* height: 300px; */
+  padding: 1% 0 0.5% 0;
+  height: 300px;
 }
 
 footer div{
